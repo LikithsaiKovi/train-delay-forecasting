@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Data (large, and not ours to redistribute)
+data/raw/
+data/processed/
+
+# Models and experiment logs
+models/
+wandb/
+mlruns/
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
